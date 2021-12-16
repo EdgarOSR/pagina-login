@@ -1,0 +1,112 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    margin: 0px;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.left-div
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.left-div img
+{
+    max-height: 80%;
+    width: auto;
+}
+
+.right-div
+{
+    background-color: lightblue;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 2%;
+}
+
+.right-div label
+{
+    margin-top: 20px;
+    height: 20px;
+}
+
+.right-div input
+{
+    border-radius: 6px;
+    height: 30px;
+    border: 1px solid gray;
+}
+
+.right-div form
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.link-login
+{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+button
+{
+    text-align: center;
+    height: 30px;
+    border-radius: 6px;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.form-buttons
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.form-buttons button
+{
+    width: 48%;
+    border: 1px solid black;
+    background-color: navy;
+    color: white;
+}
+
+.form-buttons button:hover
+{
+    background-color: orangered;
+    color: white;
+}
+
+.error
+{
+    color: darkred;
+    font-size: 12px;
+    padding: 2px;
+}
